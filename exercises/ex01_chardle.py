@@ -1,6 +1,5 @@
 """EX01 - Chardle - A cute step toward Wordle."""
-_author_ = "730430540"
-
+__author__ = "730430540"
 answer_word: str = input("Enter a 5-character word: ")
 if len(answer_word) != 5:
     print("Error: Word must contain 5 characters")
